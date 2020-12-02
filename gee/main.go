@@ -106,11 +106,10 @@ func main() {
 				"password": c.PostForm("password"),
 			})
 		})
-	}*/
-
+	}
 	r.GET("/assets/*filepath", func(c *gee.Context) {
 		c.JSON(http.StatusOK, gee.H{"filepath": c.Param("filepath")})
-	})
+	})*/
 
 	r.Run(":8888")
 }
