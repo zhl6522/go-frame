@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09d1a58b-afd5-431e-b1a3-4e8200b3d282" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gee/gee/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gee/gee/recovery.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geecache/lru/lru.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geecache/lru/lru_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gee/gee/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/gee/gee/context.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gee/gee/gee.go" beforeDir="false" afterPath="$PROJECT_DIR$/gee/gee/gee.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gee/gee/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/gee/gee/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gee/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/gee/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +45,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/gee/static/css" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\www\go_project\src\go-work\go-frame\geecache" />
+      <recent name="E:\www\go_project\src\go-work\go-frame\gee" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\www\go_project\src\go-work\go-frame\gee\static\css" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\www\go_project\src\go-work\go-frame\gee" />
-    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.go test go-work/go-frame/geecache/lru">
     <configuration name="go build go-work/go-frame/gee" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-frame" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -66,8 +63,53 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go-work/go-frame/geecache" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-frame" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/geecache/main.go" />
+      <package value="go-work/go-frame/geecache" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGet in go-work/go-frame/geecache/lru" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-frame" />
+      <working_directory value="$PROJECT_DIR$/geecache/lru" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go-work/go-frame/geecache/lru" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestGet$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestOnEvicted in go-work/go-frame/geecache/lru" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-frame" />
+      <working_directory value="$PROJECT_DIR$/geecache/lru" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go-work/go-frame/geecache/lru" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestOnEvicted$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test go-work/go-frame/geecache/lru" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-frame" />
+      <working_directory value="$PROJECT_DIR$/geecache/lru" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go-work/go-frame/geecache/lru" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test go-work/go-frame/geecache/lru" />
+        <item itemvalue="Go Test.TestGet in go-work/go-frame/geecache/lru" />
+        <item itemvalue="Go Test.TestOnEvicted in go-work/go-frame/geecache/lru" />
+        <item itemvalue="Go Build.go build go-work/go-frame/geecache" />
         <item itemvalue="Go Build.go build go-work/go-frame/gee" />
       </list>
     </recent_temporary>
@@ -80,21 +122,21 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="668" y="159" key="#go_build_go-work/go-frame/gee/0.0.1920.1050@0.0.1920.1050" timestamp="1606288296694" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1606288301459">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1607065968263">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606288301459" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1606288301459">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1607065968263" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1607065968263">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606288301459" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1606288301459">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1607065968263" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1607065968263">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606288301459" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1606288301459">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1607065968263" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1607065968263">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606288301459" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607065968263" />
   </component>
 </project>
