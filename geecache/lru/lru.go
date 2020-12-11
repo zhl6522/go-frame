@@ -31,7 +31,7 @@ func New(maxBytes int64, onEvicted func(string, Value)) *Cache {
 // 查找主要有 2 个步骤，第一步是从字典中找到对应的双向链表的节点，第二步，将该节点移动到队尾
 func (c *Cache) Get(key string) (value Value, ok bool) {
 	if ele, ok := c.cache[key]; ok {
-		c.ll.MoveToFront(ele)
+		c.ll.MoveToFront(ele)	// c.ll.MoveToFront(ele)，即将链表中的节点 ele 移动到队尾（双向链表作为队列，队首队尾是相对的，在这里约定 front 为队尾）
 		kv := ele.Value.(*entry)
 		return kv.value, true
 	}
